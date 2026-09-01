@@ -1,5 +1,30 @@
 # Changelog
 
+## [1.5.4](https://github.com/orocos/orocos_kinematics_dynamics/tree/1.5.4) (2026-08-31)
+
+[Full Changelog](https://github.com/orocos/orocos_kinematics_dynamics/compare/1.5.3...1.5.4)
+
+**Fixed bugs:**
+
+- Inconsistent solver test results [\#239](https://github.com/orocos/orocos_kinematics_dynamics/issues/239)
+
+**Closed issues:**
+
+- KDL::ChainIkSolverVel\_pinv always returns zero joint velocity [\#495](https://github.com/orocos/orocos_kinematics_dynamics/issues/495)
+- Interest in a new release? [\#478](https://github.com/orocos/orocos_kinematics_dynamics/issues/478)
+
+**Merged pull requests:**
+
+- Fix flaky solvertest [\#516](https://github.com/orocos/orocos_kinematics_dynamics/pull/516) ([MatthijsBurgh](https://github.com/MatthijsBurgh))
+- Bump actions/setup-python from 6 to 7 [\#515](https://github.com/orocos/orocos_kinematics_dynamics/pull/515) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump actions/checkout from 6 to 7 [\#514](https://github.com/orocos/orocos_kinematics_dynamics/pull/514) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump python\_orocos\_kdl/pybind11 from `45fab40` to `d03662f` [\#512](https://github.com/orocos/orocos_kinematics_dynamics/pull/512) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump python\_orocos\_kdl/pybind11 from `d6ae0e1` to `45fab40` [\#510](https://github.com/orocos/orocos_kinematics_dynamics/pull/510) ([dependabot[bot]](https://github.com/apps/dependabot))
+- \(CMake\) only look for catkin, when ROS1 [\#509](https://github.com/orocos/orocos_kinematics_dynamics/pull/509) ([MatthijsBurgh](https://github.com/MatthijsBurgh))
+- Only depend on catkin, when ROS1 [\#508](https://github.com/orocos/orocos_kinematics_dynamics/pull/508) ([MatthijsBurgh](https://github.com/MatthijsBurgh))
+- Bump actions/checkout from 5 to 6 [\#507](https://github.com/orocos/orocos_kinematics_dynamics/pull/507) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Release/1.5.3 [\#506](https://github.com/orocos/orocos_kinematics_dynamics/pull/506) ([MatthijsBurgh](https://github.com/MatthijsBurgh))
+
 ## [1.5.3](https://github.com/orocos/orocos_kinematics_dynamics/tree/1.5.3) (2025-10-17)
 
 [Full Changelog](https://github.com/orocos/orocos_kinematics_dynamics/compare/1.5.2...1.5.3)
@@ -419,7 +444,7 @@
 
 ## [v1.3.1](https://github.com/orocos/orocos_kinematics_dynamics/tree/v1.3.1) (2016-04-05)
 
-[Full Changelog](https://github.com/orocos/orocos_kinematics_dynamics/compare/1.3.0...v1.3.1)
+[Full Changelog](https://github.com/orocos/orocos_kinematics_dynamics/compare/v1.3.0...v1.3.1)
 
 **Closed issues:**
 
@@ -439,13 +464,13 @@
 - really small adjustements to the docs [\#31](https://github.com/orocos/orocos_kinematics_dynamics/pull/31) ([MrMagne](https://github.com/MrMagne))
 - Use the FindEigen3.cmake from the Eigen repository [\#29](https://github.com/orocos/orocos_kinematics_dynamics/pull/29) ([traversaro](https://github.com/traversaro))
 
-## [1.3.0](https://github.com/orocos/orocos_kinematics_dynamics/tree/1.3.0) (2014-07-15)
-
-[Full Changelog](https://github.com/orocos/orocos_kinematics_dynamics/compare/v1.3.0...1.3.0)
-
 ## [v1.3.0](https://github.com/orocos/orocos_kinematics_dynamics/tree/v1.3.0) (2014-07-15)
 
-[Full Changelog](https://github.com/orocos/orocos_kinematics_dynamics/compare/v1.2.2...v1.3.0)
+[Full Changelog](https://github.com/orocos/orocos_kinematics_dynamics/compare/1.3.0...v1.3.0)
+
+## [1.3.0](https://github.com/orocos/orocos_kinematics_dynamics/tree/1.3.0) (2014-07-15)
+
+[Full Changelog](https://github.com/orocos/orocos_kinematics_dynamics/compare/v1.2.2...1.3.0)
 
 **Closed issues:**
 
